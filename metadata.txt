@@ -1,0 +1,36 @@
+[general]
+name=Quick Vworld
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+description=Download spatial data from Vworld WFS API
+about=Quick Vworld plugin allows you to download spatial data from Korean Vworld Open API using WFS service. Select extent (canvas or layer) and download urban planning data directly into QGIS.
+version=1.0.0
+author=Quick Vworld Team
+email=quickvworld@example.com
+
+# Tags
+tags=vworld,wfs,korea,urban planning,download,open data
+
+# Plugin configuration
+hasProcessingProvider=no
+server=False
+experimental=True
+deprecated=False
+
+# Repository
+homepage=https://github.com/quickvworld/qgis-plugin
+tracker=https://github.com/quickvworld/qgis-plugin/issues
+repository=https://github.com/quickvworld/qgis-plugin
+
+# Icon
+icon=icon.png
+
+# Changelog
+changelog=
+    Version 1.0.0 (2025-11-12):
+    * Initial release
+    * Canvas extent selection
+    * Layer extent selection
+    * Selected features support
+    * Urban planning facility layer (lt_c_upisuq153)
+
